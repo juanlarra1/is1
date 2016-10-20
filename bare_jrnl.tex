@@ -457,6 +457,78 @@ IEEE, IEEEtran, journal, \LaTeX, paper, template.
 
 
 
+\section{Que es Git}
+
+Es un sistema de control de versiones que nos permite hacer el seguimiento temporal de nuestro código fuente, auditarlo, volver a una versión anterior de forma sencilla, controlar versiones y permitir el trabajo en equipo, entre otras.
+\linebreak
+\begin{quote}
+
+Al principio, Git se penso como un motor de bajo nivel sobre el cual otros pudieran escribir la interfaz de usuario o front end comoCogito o StGIT. 3 Sin embargo, Git se ha convertido desde entonces en un sistema de control de versiones con funcionalidad plena. 4 Hay algunos proyectos de mucha relevancia que ya usan Git, en particular, el grupo de programacion del nucleo Linux.
+El mantenimiento del software Git esta actualmente (2009) supervisado por Junio Hamano, quien recibe contribuciones al codigo de alrededor de 280 programadores.\linebreak
+\linebreak
+WIKIPEDIA
+
+\end{quote}
+
+\section{Como crear una cuenta en GIT Hub}
+
+Para crear una cuenta en GIT Hub ingresamos a https://github.com/ y cliqueamos en Sign In. En la pantalla nos pide ingresar: usuario, correo electronico y contraseña. Confirmamos y luego nos pide elegir si nuestra cuenta será paga o gratis y opcionalmente podemos chequear una ayuda del sistema para configurar una organizacion.
+Continuamos los pasos y pasamos a configurar nuestro tipo de cuenta, eligiendo nuestro nivel de experiencia programando, para que vamos a usar la herramienta, el tipo de usuario y nuestro intereses. 
+Al confirmar esta ultima pantalla, terminamos de registrar nuestra cuenta y queda disponible automáticamente para empezar a usar la herramienta.
+
+\section{Cuales son las principales ventajas}
+
+Es una manera facil y practica de poder modificar proyectos en paralelo con otro miembros de un equipo y con la posibilidad de poder recuperar versiones previas de ser necesario, asimismo se puede visualizar estas versiones como arbol de cambios.
+
+Tambien tiene la ventaja de poder crear diferentes branches paralelos a partir de un mismo punto del proyecto asi como tambien branches dentro de lo mismos
+
+\section{Cuales son las principales caracteristicas}
+
+
+EL diseño de Git se baso en BitKeeper y Monotone que son herramientas de software para control de distribuido de versiones.\\
+Fuerte apoyo al desarrollo no lineal y por ende rapidez en la gestión de ramas.\\
+Incluye herramientas especificas para navegar y visualizar un historial de desarrollo no lineal
+Gran rendimiento en programas grandes, gracias a su sistema distribuido. Las búsquedas son mucho mas eficientes lo que supone una gran rapidez para detectar diferencia entre archivos.\\
+Git le da a cada programador una copia local del historial de desarrollo entero y los cambios se propagan entre los repositorios locales.\\
+Todas las versiones previas a un cambio implican la notificación de un cambio posterior en cualquier de ellas a ese cambio.\\
+
+
+
+
+\section{Como se resuelven los conflictos de versionado}
+Si hay conflicto entre las versiones la unica manera de solucionarlo es solucionarlo manualmente, hay que ir a los archivos que estan dando error y modificar las lineas que correspondan para que queden igual en todos los archivos y despues se hace el merge.
+
+
+
+\section{Qué restricciones tiene }
+
+
+
+
+\section{Que son los branch}
+Una branch es una "ramificacion" del proyecto original (master), esta rama puede contener versiones alternas del proyecto, y se puede modificar y trabajar en ella sin haber conflicto. Las principales funcionalidades de las branches son:
+\\
+\begin{itemize}
+\item Desarrollar nuevas funcionalidades sin afectar el codigo final
+\item Arreglar bugs, y probar hotfixes de un codigo ya deployado.
+\item Tener diferentes ambientes de una misma version para diferentes etapas. (Testing, Produccion)
+\item Tener un proyecto mas organizado y con menos posibilidad de conflictos de modificaciones.
+\end{itemize}
+Los principales comandos para el manejo de branches son:
+
+\begin{center}  \textit{\$ git branch } \end{center}
+Lista todos los branches existentes
+\\
+\begin{center}  \textit{\$ git branch (nombre)} \end{center}
+Crea un branch con el nombre dado
+\\
+\begin{center}  \textit{\$ git checkout (nombre)} \end{center}
+Cambia el ambiente de trabajo actual al branch del nombre.
+
+\section{Que son los issue trackers}
+
+
+
 \section{Introduction}
 % The very first letter is a 2 line initial drop letter followed
 % by the rest of the first word in caps.
@@ -473,8 +545,7 @@ IEEE, IEEEtran, journal, \LaTeX, paper, template.
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
-for IEEE journal papers produced under \LaTeX\ using
+\IEEEPARstart{T}{his} demo hola mundo der \LaTeX\ using
 IEEEtran.cls version 1.8b and later.
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
@@ -485,7 +556,7 @@ I wish you the best of success.
 \hfill August 26, 2015
 
 \subsection{Subsection Heading Here}
-Subsection text here.
+Subsection textgfsdfgg
 
 % needed in second column of first page if using \IEEEpubid
 %\IEEEpubidadjcol
@@ -662,9 +733,8 @@ The authors would like to thank...
 % (used to reserve space for the reference number labels box)
 \begin{thebibliography}{1}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+\bibitem{Que es una rama:kopka}
+https://git-scm.com/book/es/v1/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F
 
 \end{thebibliography}
 
